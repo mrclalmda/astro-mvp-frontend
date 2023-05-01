@@ -1,8 +1,8 @@
 # Corpos Celestes
 
-Projeto sucinto em javascript puro que lista objetos astronômicos cadastrados e nos permite fazer nova inclusão e deleção de itens já cadastrados.
+Projeto faz parte do MVP da Sprint I: Desenvolvimento Full Stack Básico do curso de Engenharia de Software da PUC-Rio.
 
-Objetivo é conhecer os fundamentos do desenvolvimento web evitando utilizar frameworks e bibliotecas, focando no aprendizado em JS, CSS e HTML.
+Objetivo é conhecer os fundamentos do desenvolvimento web evitando utilizar frameworks e bibliotecas, focando no aprendizado em JS puro, CSS e HTML.
 
 ## Requisitos
 
@@ -18,7 +18,7 @@ Utilize a barra lateral para fornecer dados do corpo celeste e em seguida adicio
 
 ## Contribuindo
 
-Projeto faz parte do MVP do curso de Engenharia de Software da PUC-Rio e se encontra finalizado, não aceitando novas alterações.
+Projeto se encontra finalizado, não aceitando novas alterações.
 
 ## Licença
 
