@@ -2,7 +2,7 @@
 
 Projeto sucinto em javascript puro que lista objetos astronômicos cadastrados e nos permite fazer nova inclusão e deleção de itens já cadastrados.
 
-Objetivo é conhecer os fundamentos do desenvolvimento web evitando utilizar frameworks complexos, focando no aprendizado em JS, CSS e HTML.
+Objetivo é conhecer os fundamentos do desenvolvimento web evitando utilizar frameworks e bibliotecas, focando no aprendizado em JS, CSS e HTML.
 
 ## Requisitos
 
