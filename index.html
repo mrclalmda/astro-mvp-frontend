@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Favorite Stellar Bodies</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body onload="getList()">
+  <div class="container">
+    <nav class="sidebar">
+      <h2>Add a New Stellar Body</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="name">Distance:</label>
+        <input type="number" id="distance" name="distance">
+        <label for="type">Type:</label>
+        <select id="type" name="type">
+          <option value="Star">Star</option>
+          <option value="Planet">Planet</option>
+          <option value="Moon">Moon</option>
+          <option value="Comet">Comet</option>
+          <option value="Asteroid">Asteroid</option>
+        </select>
+        <button type="button" onclick="postAstro()">Add Body</button>
+      </form>
+    </nav>
+    <main>
+      <header>
+        <h1>My Favorite Stellar Bodies</h1>
+      </header>
+      <br>
+      <br>
+      <ul id="list">
+        <li class="title">
+          <span>Name</span>
+          <span>Distance</span>
+          <span id="type">Type</span>
+          <span id="options">Options</span>
+
+      </ul>
+    </main>
+  </div>
+</body>
+
+</html>

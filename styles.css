@@ -1,0 +1,158 @@
+/* Global Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #f8f8f8;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 18.75rem;
+    height: 100vh;
+    padding: 1rem;
+    margin-right: 1rem;
+    background-color: #fff;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: .5rem;
+}
+
+input,
+select {
+    padding: .5rem;
+    border: .0625rem solid #ccc;
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .25rem;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.25rem;
+    text-align: center;
+    color: #333;
+}
+
+.bodies-container {
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+.stellar-body-name {
+    color: #333;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.edit-btn,
+.delete-btn {
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .25rem;
+    margin-left: .5rem;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #f8ac30;
+    color: #fff;
+}
+
+.edit-btn:hover {
+    background-color: #ffa74d;
+}
+
+.delete-btn {
+    background-color: #ff4b5c;
+    color: #fff;
+}
+
+.delete-btn:hover {
+    background-color: #ff7c85;
+}
+
+#list {
+    margin-left: 20rem;
+}
+#options{
+    margin-right: 2rem;
+}
+#type{
+    margin-right: 3rem;
+}
+
+.title {
+    font-weight: bold;
+    background-color: #d4d3d3;
+}
+
+.title-button {
+    opacity: 0.0;
+}
+
