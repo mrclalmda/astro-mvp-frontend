@@ -67,6 +67,7 @@ main {
 
 h1 {
     margin: 0;
+    margin-left: 20rem;
     font-size: 2.25rem;
     text-align: center;
     color: #333;
@@ -151,8 +152,3 @@ li:last-child {
     font-weight: bold;
     background-color: #d4d3d3;
 }
-
-.title-button {
-    opacity: 0.0;
-}
-

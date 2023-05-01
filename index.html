@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>My Favorite Stellar Bodies</title>
+  <title>Lista de Corpos Celestes</title>
   <link rel="stylesheet" href="styles.css">
   <script type="text/javascript" src="script.js"></script>
 </head>
@@ -11,35 +11,35 @@
 <body onload="getList()">
   <div class="container">
     <nav class="sidebar">
-      <h2>Add a New Stellar Body</h2>
+      <h2>Incluir novo</h2>
       <form>
-        <label for="name">Name:</label>
+        <label for="name">Nome:</label>
         <input type="text" id="name" name="name">
-        <label for="name">Distance:</label>
+        <label for="name">Distância:</label>
         <input type="number" id="distance" name="distance">
-        <label for="type">Type:</label>
+        <label for="type">Tipo:</label>
         <select id="type" name="type">
-          <option value="Star">Star</option>
-          <option value="Planet">Planet</option>
-          <option value="Moon">Moon</option>
-          <option value="Comet">Comet</option>
-          <option value="Asteroid">Asteroid</option>
+          <option value="Estrela">Estrela</option>
+          <option value="Planeta">Planeta</option>
+          <option value="Satélite Natural">Satélite Natural</option>
+          <option value="Cometa">Cometa</option>
+          <option value="Asteroide">Asteroide</option>
         </select>
-        <button type="button" onclick="postAstro()">Add Body</button>
+        <button type="button" onclick="postAstro()">Add </button>
       </form>
     </nav>
     <main>
       <header>
-        <h1>My Favorite Stellar Bodies</h1>
+        <h1>Lista de Corpos Celestes</h1>
       </header>
       <br>
       <br>
       <ul id="list">
         <li class="title">
-          <span>Name</span>
-          <span>Distance</span>
-          <span id="type">Type</span>
-          <span id="options">Options</span>
+          <span>Nome</span>
+          <span>Distância</span>
+          <span id="type">Tipo</span>
+          <span id="options">Opções</span>
 
       </ul>
     </main>
