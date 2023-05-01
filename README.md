@@ -22,4 +22,4 @@ Projeto faz parte do MVP do curso de Engenharia de Software da PUC-Rio e se enco
 
 ## Licença
 
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](https://opensource.org/license/mit/)
