@@ -1,8 +1,10 @@
-# Corpos Celestes
+# Cadastro de items
 
 Projeto faz parte do MVP da Sprint I: Desenvolvimento Full Stack Básico do curso de Engenharia de Software da PUC-Rio.
 
 Objetivo é conhecer os fundamentos do desenvolvimento web evitando utilizar frameworks e bibliotecas, focando no aprendizado em JS puro, CSS e HTML.
+
+A solução apresentada é um simples cadastro de itens em um banco de dados que posteriormente é utilizado para alimentar a tabela, neste caso o template é para cadastro de planetas, estrelas e cometas.
 
 ## Requisitos
 
@@ -14,7 +16,7 @@ Clone o repositório para sua máquina e abra o arquivo index.html utilizando o 
 
 ## Utilização
 
-Utilize a barra lateral para fornecer dados do corpo celeste e em seguida adicione-o para que seja exibido na lista à direita.
+Utilize a barra lateral para fornecer dados ao objeto e em seguida adicione-o para que seja exibido na lista à direita.
 
 ## Contribuindo
 
